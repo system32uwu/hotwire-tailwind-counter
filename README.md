@@ -22,3 +22,15 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+# Creating the app
+
+`rails new hotwire-tailwind-counter --javascript=esbuild --css=tailwind -T`
+
+`cd hotwire-tailwind-counter`
+
+`bundle`
+
+`rails g controller site index # generate the controller for site `
+
